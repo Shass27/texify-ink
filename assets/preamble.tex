@@ -1,0 +1,24 @@
+\documentclass[11pt]{article}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{tikz}              % drop if figures = omit/placeholder/description
+\usepackage{pgfplots}          % drop if figures = omit/placeholder/description
+\pgfplotsset{compat=1.18}      % drop with pgfplots
+
+\newtheorem*{theorem}{Theorem}
+\theoremstyle{definition}
+\newtheorem*{definition}{Definition}
+\newtheorem*{example}{Example}
+\theoremstyle{remark}
+\newtheorem*{remark}{Remark}
+
+% --- flag macros: swap bodies to match the interview's "flag style" answer ---
+\newcommand{\srcpage}[1]{\footnote{Source: p.~#1}}  % or: {} if page markers = % comments only
+\newcommand{\corr}[1]{\textit{[corr.: #1]}}       % footnote style: \footnote{Corr.: #1}; hidden: {}
+\newcommand{\added}[1]{\textit{[added: #1]}}      % footnote style: \footnote{Added: #1}; hidden: {}
+
+\title{TITLE}
+\date{}
+
+\begin{document}
+\maketitle
